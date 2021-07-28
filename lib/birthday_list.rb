@@ -1,6 +1,7 @@
 class BirthdayList
 
-def self.add_name(name)
-end
+  def add_name(name)
+    return nil if name.empty?
+  end
   
 end
